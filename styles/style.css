@@ -1,0 +1,31 @@
+.navbar{
+    background-color:whitesmoke;
+}
+.navbar-toggler{
+    border:none;
+    font-size: 1.25rem;
+}
+.navbar-img{
+    height: auto;
+    width: 50%;
+    max-width: 720px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+.offcanvas-title{
+    font-size: calc(14px + 16 * (100vw / 1280));
+}
+.nav-link{
+    color:#ac1a39;
+    font-size: calc(6.5px + 15 * (100vw / 1280));
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover{
+    color:#530113;
+}
+.navbar-nav .nav-link.active{
+    color:#530113;
+}
