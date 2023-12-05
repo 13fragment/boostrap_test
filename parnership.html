@@ -11,9 +11,9 @@
     <title>Furniture</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="index.html">
             <img class ="navbar-img" src="img/logo-16998916994 (1).png">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -36,14 +36,47 @@
                     <a class="nav-link mx-lg-3" href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-lg-3" href="parnership.html">Partnership</a>
+                    <a class="nav-link mx-lg-3 active" href="#">Partnership</a>
                 </li>
             </ul>
             </div>
           </div>
         </div>
-      </nav>
-    <section class="hero-section">
-    </section>
+    </nav>
+    <div class="container-fluid con">
+    <form action="https://www.bing.com/"method="get">
+        <div class="row mb-3 col-form-label col-sm-3">
+            <p class="h2 ms-4">Partnership info</p>
+            <label class="h2 col sm-2 col-form-label">Company name</label>
+            <input name="company-name" type="text" class="form-control" value="targo">
+        </div>
+        <div class="row mb-3 col-form-label col-sm-3">
+            <label class="h2 col sm-2 col-form-label">Amount of workers</label>
+            <input name="workers" type="number" class="form-control" value="30">
+        </div>
+            <fieldset>
+                <div class="row mb-3">
+                    <legend class=" h2 col-form-label col-sm-2">
+                        Choose staff name:
+                    </legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="staff" value="manager" id="radio1" checked>
+                            <label for="radio1" class="form-check-label">Manager</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="staff" value="designer" id="radio2">
+                            <label for="radio2" class="form-check-label">Designer</label>
+                        </div>
+                    </div>
+                </fieldset>
+            <p>
+                <input class="btn btn-primary me-5 "type="submit" name="submit" value="send">
+                <input class="btn btn-danger"type="reset" name="reset" value="reload">
+    
+            </p>
+        </div>
+    </form>
+    </div>
 </body>
 </html>
